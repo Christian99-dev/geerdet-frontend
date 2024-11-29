@@ -43,12 +43,6 @@ export default {
     transitionTimingFunction: {
       default: "ease",
     },
-    borderWidth: {
-      default: "1px",
-    },
-    borderStyle: {
-      default: "dotted",
-    },
 
     // Colors
     colors: {
@@ -57,19 +51,22 @@ export default {
       inherit: "inherit",
       white: "#ffffff",
       black: "#000000",
+      
       "gray-25": "rgba(144, 144, 144, 0.25)",
       "gray-50": "rgba(255, 255, 255, 0.5)",
       "gray-75": "rgba(255, 255, 255, 0.075)",
       "gray-125": "rgba(0, 0, 0, 0.125)",
       "gray-500": "rgba(0, 0, 0, 0.5)",
       "gray-700": "rgba(0, 0, 0, 0.7)",
+      
       background: "#2e3842",
       primary: "#1b5e67",
       secondary: "#21b2a6",
       accent1: "#00ffcc",
       accent2: "#00f0ff",
       accent3: "#76ddff",
-      "footer-bg": "#1d242a",
+      
+      "footer": "rgba(29, 36, 42, 0.9)",
       "style1-bg": "#1b5e67",
       "style1-text": "#c8ece9",
       "style3-bg": "#505393",
