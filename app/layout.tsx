@@ -1,16 +1,25 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "@/theme/global.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const roboto = localFont({
+  src: [
+    {
+      path: "../fonts/roboto-v32-latin-300.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../fonts/roboto-v32-latin-600.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../fonts/roboto-v32-latin-900.ttf",
+      weight: "900",
+      style: "normal",
+    },
+  ]
 });
 
 export const metadata: Metadata = {
@@ -25,9 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${roboto.className} antialiased`}>
         {children}
       </body>
     </html>
