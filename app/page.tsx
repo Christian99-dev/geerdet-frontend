@@ -12,8 +12,8 @@ export default function Home() {
       <BannerOne />
       <InfoOne />
       <InfoTwo />
-      {/* <VegetableBoxBanner /> */}
-      {/* <Footer /> */}
+      <VegetableBoxBanner />
+      <Footer />
     </>
   );
 }
