@@ -22,10 +22,10 @@ export const BannerOne = () => {
         SoLaWi (Solidarische Landwirtschaft). Der Aufbau einer nachhaltigen,
         „enkeltauglichen“ Landwirtschaft ist unser Ziel.
       </p>
-      <div className="flex gap-6">
-        <Icon name="bunny" size="small" color="white" />
-        <Icon name="bunny" size="small" color="white" />
-        <Icon name="bunny" size="small" color="white" />
+      <div className="flex gap-10">
+        <Icon name="park" size="small" color="secondary" />
+        <Icon name="compost" size="small" color="secondary" />
+        <Icon name="spa" size="small" color="secondary" />
       </div>
     </section>
   );

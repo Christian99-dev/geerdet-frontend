@@ -4,7 +4,7 @@ import Link from "@/components/shared/Link";
 
 export default function Theme() {
   return (
-    <div className="flex flex-col p-14 gap-4">
+    <div className="flex flex-col p-14 gap-4 text-black">
       <div>
         <h1>Überschrift 1 (h1)</h1>
         <h2>Überschrift 2 (h2)</h2>
@@ -44,27 +44,29 @@ export default function Theme() {
       </div>
 
       <div className="flex gap-5  p-5">
-        <Icon size="medium" name="book" color="accent1" />
-        <Icon size="medium" name="bunny" color="accent2" />
-        <Icon size="medium" name="drop" color="accent3" />
+        <Icon size="medium" name="import_contacts" color="accent1" />
+        <Icon size="medium" name="cruelty_free" color="accent2" />
+        <Icon size="medium" name="water_drop" color="accent3" />
         <Icon size="medium" name="egg" color="accent3" />
         <Icon size="medium" name="landscape" color="accent3" />
         <Icon size="medium" name="nature" color="accent3" />
         <Icon size="medium" name="nature_people" color="accent3" />
         <Icon size="medium" name="park" color="accent3" />
         <Icon size="medium" name="spa" color="accent3" />
+        <Icon size="medium" name="south" color="accent3" />
       </div>
 
-      <div className="flex gap-5 bg-background p-5">
-        <Icon size="small" name="book" color="accent1" />
-        <Icon size="small" name="bunny" color="accent2" />
-        <Icon size="small" name="drop" color="accent3" />
+      <div className="flex gap-5 p-5">
+        <Icon size="small" name="import_contacts" color="accent1" />
+        <Icon size="small" name="cruelty_free" color="accent2" />
+        <Icon size="small" name="water_drop" color="accent3" />
         <Icon size="small" name="egg" color="accent3" />
         <Icon size="small" name="landscape" color="accent3" />
         <Icon size="small" name="nature" color="accent3" />
         <Icon size="small" name="nature_people" color="accent3" />
         <Icon size="small" name="park" color="accent3" />
         <Icon size="small" name="spa" color="accent3" />
+        <Icon size="small" name="south" color="accent3" />
       </div>
     </div>
   );

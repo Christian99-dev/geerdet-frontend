@@ -44,7 +44,7 @@ export const Hero = () => {
         <p className="uppercase text-8 tracking-wide mb-2">
           Hier geht´s weiter
         </p>
-        <Icon name="arrowDown" color="white" size="small" />
+        <Icon name="south" color="white" size="small" />
       </Link>
     </section>
   );
