@@ -23,7 +23,7 @@ const FixedBackground = ({
 
       {/** Abdunklung des bildes */}
       <div
-        className={`absolute z-[11] bg-${color} top-0 left-0 right-0 bottom-0`}
+        className={`absolute -z-9 bg-${color} top-0 left-0 right-0 bottom-0`}
       />
     </>
   );

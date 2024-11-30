@@ -12,9 +12,12 @@ export const Hero = () => {
         color="gray-500"
       />
 
+      {/** Vorhand */}
+      <div className="absolute w-full h-full bg-style5-strong z-20 animate-bannerFadeOut [animation-delay:_1.25s]"></div>
+
       {/** Logo */}
       <Image
-        className="relative z-20 w-[17rem] mb-4"
+        className="relative z-20 w-[17rem] mb-4 animate-heroLogoPopup"
         src="/images/geerdet_logo.png"
         width={1000}
         height={1000}
@@ -22,10 +25,10 @@ export const Hero = () => {
       />
 
       {/** Line */}
-      <div className="w-[25%] h-[2px] bg-white z-30 mb-6" />
+      <div className="h-[2px] bg-white z-30 mb-6 animate-lineIn [animation-delay:_0.5s]" />
 
       {/** Text */}
-      <p className="text-white relative z-30 text-center uppercase tracking-wide">
+      <p className="text-white relative z-10 text-center uppercase tracking-wide">
         Unsere Solidarische
         <br />
         Landwirtschaft
@@ -36,9 +39,8 @@ export const Hero = () => {
       {/** Extra space for golden ratio */}
       <div className="hidden size-20 md:block"></div>
 
-
       {/** Bottom Arrow */}
-      <Link href={"#first-section"} className="hidden md:flex absolute bottom-12 text-white z-30 flex-col items-center cursor-pointer">
+      <Link href={"#first-section"} className="hidden opacity-0 md:flex absolute bottom-12 text-white z-30 flex-col items-center cursor-pointer animate-moreButtonIn [animation-delay:_2s]">
         <p className="uppercase text-8 tracking-wide mb-2">
           Hier geht´s weiter
         </p>

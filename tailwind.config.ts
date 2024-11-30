@@ -9,12 +9,12 @@ export default {
   ],
   safelist: [
     {
-      pattern: /(bg|text|stroke|fill)-(transparent|white|black|gray-25|gray-50|gray-75|gray-125|gray-500|gray-700|background|primary|secondary|accent1|accent2|accent3|footer|style1-bg|style1-text|style3-bg|style3-text|style5-text|style5-strong)/,
-      variants: ['fill'],
+      pattern:
+        /(bg|text|stroke|fill)-(transparent|white|black|gray-25|gray-50|gray-75|gray-125|gray-500|gray-700|background|primary|secondary|accent1|accent2|accent3|footer|style1-bg|style1-text|style3-bg|style3-text|style5-text|style5-strong)/,
+      variants: ["fill"],
     },
   ],
   theme: {
-
     // Fonts
     fontSize: {
       1: "2.986rem",
@@ -57,22 +57,22 @@ export default {
       inherit: "inherit",
       white: "#ffffff",
       black: "#000000",
-      
+
       "gray-25": "rgba(144, 144, 144, 0.25)",
       "gray-50": "rgba(255, 255, 255, 0.5)",
       "gray-75": "rgba(255, 255, 255, 0.075)",
       "gray-125": "rgba(0, 0, 0, 0.125)",
       "gray-500": "rgba(0, 0, 0, 0.5)",
       "gray-700": "rgba(0, 0, 0, 0.7)",
-      
+
       background: "#2e3842",
       primary: "#1b5e67",
       secondary: "#21b2a6",
       accent1: "#00ffcc",
       accent2: "#00f0ff",
       accent3: "#76ddff",
-      
-      "footer": "rgba(29, 36, 42, 0.9)",
+
+      footer: "rgba(29, 36, 42, 0.9)",
       "style1-bg": "#1b5e67",
       "style1-text": "#c8ece9",
       "style3-bg": "#505393",
@@ -80,7 +80,53 @@ export default {
       "style5-text": "#4E4852",
       "style5-strong": "#2E3842",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        heroLogoPopup: {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.95)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
+        lineIn: {
+          "0%": {
+            width: "0%",
+          },
+          "100%": {
+            width: "25%",
+          },
+        },
+        bannerFadeOut: {
+          "0%": {
+            opacity: "1",
+          },
+          "100%": {
+            opacity: "0",
+          },
+        },
+        moreButtonIn: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(8.5em)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+
+      animation: {
+        heroLogoPopup: "heroLogoPopup 1s ease forwards",
+        lineIn: "lineIn 0.85s ease forwards",
+        bannerFadeOut: "bannerFadeOut 1.5s ease-in-out forwards",
+        moreButtonIn: "moreButtonIn 0.75s ease forwards",
+      },
+    },
   },
   plugins: [
     function ({ addBase, theme }: PluginAPI) {
