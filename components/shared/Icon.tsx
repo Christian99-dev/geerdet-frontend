@@ -51,7 +51,7 @@ export default function Icon({
   return (
     <SvgIcon
       className={`
-    ${size === "small" ? "size-3" : "size-10"}
+    ${size === "small" ? "size-9" : "size-12"}
     fill-${color} 
   `}
       strokeWidth={strokeWidth}
