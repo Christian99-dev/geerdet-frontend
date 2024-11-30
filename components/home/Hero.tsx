@@ -1,6 +1,7 @@
 import Image from "next/image";
 import FixedBackground from "../shared/FixedBackground";
 import Icon from "../shared/Icon";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -37,12 +38,12 @@ export const Hero = () => {
 
 
       {/** Bottom Arrow */}
-      <div className="hidden md:flex absolute bottom-12 text-white z-30 flex-col items-center">
+      <Link href={"#first-section"} className="hidden md:flex absolute bottom-12 text-white z-30 flex-col items-center cursor-pointer">
         <p className="uppercase text-8 tracking-wide mb-2">
           Hier geht´s weiter
         </p>
         <Icon name="arrowDown" color="white" size="medium" />
-      </div>
+      </Link>
     </section>
   );
 };
