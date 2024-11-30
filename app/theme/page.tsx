@@ -1,4 +1,5 @@
 import Button from "@/components/shared/Button";
+import Icon from "@/components/shared/Icon";
 import Link from "@/components/shared/Link";
 
 export default function Theme() {
@@ -40,6 +41,30 @@ export default function Theme() {
           <Button text="Button" variant="primary" size="default" />
           <Button text="Button" variant="primary" size="large" />
         </div>
+      </div>
+
+      <div className="flex gap-5  p-5">
+        <Icon size="medium" name="book" color="accent1" />
+        <Icon size="medium" name="bunny" color="accent2" />
+        <Icon size="medium" name="drop" color="accent3" />
+        <Icon size="medium" name="egg" color="accent3" />
+        <Icon size="medium" name="landscape" color="accent3" />
+        <Icon size="medium" name="nature" color="accent3" />
+        <Icon size="medium" name="nature_people" color="accent3" />
+        <Icon size="medium" name="park" color="accent3" />
+        <Icon size="medium" name="spa" color="accent3" />
+      </div>
+
+      <div className="flex gap-5 bg-background p-5">
+        <Icon size="small" name="book" color="accent1" />
+        <Icon size="small" name="bunny" color="accent2" />
+        <Icon size="small" name="drop" color="accent3" />
+        <Icon size="small" name="egg" color="accent3" />
+        <Icon size="small" name="landscape" color="accent3" />
+        <Icon size="small" name="nature" color="accent3" />
+        <Icon size="small" name="nature_people" color="accent3" />
+        <Icon size="small" name="park" color="accent3" />
+        <Icon size="small" name="spa" color="accent3" />
       </div>
     </div>
   );
