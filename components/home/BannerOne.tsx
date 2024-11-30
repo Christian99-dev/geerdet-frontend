@@ -1,3 +1,3 @@
 export const BannerOne = () => {
-  return <section>BannerOne</section>;
+  return <section className="bg-white">BannerOne</section>;
 };

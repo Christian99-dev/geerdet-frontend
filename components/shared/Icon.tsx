@@ -12,6 +12,7 @@ import Nature from "@/svg/nature.svg";
 import Nature_people from "@/svg/nature_people.svg";
 import Park from "@/svg/park.svg";
 import Spa from "@/svg/spa.svg";
+import ArrowDown from "@/svg/arrow-down.svg";
 
 // Theme parameters
 import { Color, IconKey } from "@/types/theme";
@@ -30,6 +31,7 @@ const iconMap: Record<
   nature_people: Nature_people,
   park: Park,
   spa: Spa,
+  arrowDown: ArrowDown
 };
 
 export default function Icon({

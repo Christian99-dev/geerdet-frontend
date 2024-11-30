@@ -32,3 +32,4 @@ export type IconKey =
   | "nature_people"
   | "park"
   | "spa"
+  | "arrowDown"

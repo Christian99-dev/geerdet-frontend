@@ -1,4 +1,4 @@
 export const InfoTwo = () => {
-    return <section>InfoTwo</section>;
+    return <section className="bg-white">InfoTwo</section>;
   };
   

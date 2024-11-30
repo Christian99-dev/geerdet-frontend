@@ -1,3 +1,3 @@
 export const VegetableBoxBanner = () => {
-  return <section>VegetableBoxBanner</section>;
+  return <section className="bg-white">VegetableBoxBanner</section>;
 };

@@ -1,3 +1,3 @@
 export const InfoOne = () => {
-  return <section>InfoOne</section>;
+  return <section className="bg-white">InfoOne</section>;
 };
