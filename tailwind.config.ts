@@ -11,7 +11,7 @@ export default {
     {
       pattern:
         /(bg|text|stroke|fill)-(transparent|white|black|gray-075|gray-15|gray-224|gray-25|gray-50|gray-75|gray-125|gray-500|gray-700|background|primary|secondary|accent1|accent2|accent3|footer|style1-bg|style1-text|style3-bg|style3-text|style5-text|style5-strong)/,
-      variants: ["fill"],
+      variants: ["fill", "md"],
     },
   ],
   theme: {
