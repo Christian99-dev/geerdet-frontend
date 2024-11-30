@@ -126,6 +126,14 @@ export default {
         bannerFadeOut: "bannerFadeOut 1.5s ease-in-out forwards",
         moreButtonIn: "moreButtonIn 0.75s ease forwards",
       },
+
+      screens: {
+        sm: "481px",
+        md: "737px",
+        lg: "981px",
+        xl: "1281px",
+        "2xl": "1681px",
+      },
     },
   },
   plugins: [
@@ -146,7 +154,7 @@ export default {
           lineHeight: theme("lineHeight.tight"),
         },
         h2: {
-          fontSize: theme("fontSize.2"),
+          fontSize: theme("fontSize.5"),
           fontWeight: theme("fontWeight.bold"),
           letterSpacing: theme("letterSpacing.wide"),
           lineHeight: theme("lineHeight.looser"),
