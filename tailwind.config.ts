@@ -10,7 +10,7 @@ export default {
   safelist: [
     {
       pattern:
-        /(bg|text|stroke|fill)-(transparent|white|black|gray-25|gray-50|gray-75|gray-125|gray-500|gray-700|background|primary|secondary|accent1|accent2|accent3|footer|style1-bg|style1-text|style3-bg|style3-text|style5-text|style5-strong)/,
+        /(bg|text|stroke|fill)-(transparent|white|black|gray-075|gray-15|gray-224|gray-25|gray-50|gray-75|gray-125|gray-500|gray-700|background|primary|secondary|accent1|accent2|accent3|footer|style1-bg|style1-text|style3-bg|style3-text|style5-text|style5-strong)/,
       variants: ["fill"],
     },
   ],
@@ -61,7 +61,10 @@ export default {
       "gray-25": "rgba(144, 144, 144, 0.25)",
       "gray-50": "rgba(255, 255, 255, 0.5)",
       "gray-75": "rgba(255, 255, 255, 0.075)",
+      "gray-075": "rgba(0, 0, 0, 0.075)",
+      "gray-15": "rgba(0, 0, 0, 0.15)",
       "gray-125": "rgba(0, 0, 0, 0.125)",
+      "gray-224": "rgba(0, 0, 0, 0.224)",
       "gray-500": "rgba(0, 0, 0, 0.5)",
       "gray-700": "rgba(0, 0, 0, 0.7)",
 
