@@ -8,54 +8,54 @@ export const InfoTwo = () => {
       iconName: "park",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Agroforstsystem",
+      title: "Agroforestry System",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Integrate trees and shrubs into our farms to boost biodiversity, improve soil, and create sustainable ecosystems.",
       background: "md:bg-[rgba(0,0,0,0.035)]",
     },
     {
       iconName: "compost",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Ökologische Bewirtschaftung",
+      title: "Ecological Farming",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Use organic methods to reduce environmental impact, support pest control, and ensure fertile soils.",
       background: "md:bg-[rgba(0,0,0,0.07)]",
     },
     {
       iconName: "spa",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Regenerativer und naturnaher Anbau",
+      title: "Regenerative Cultivation",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Restore soils, store carbon, and harmonize with nature to create thriving ecosystems.",
       background: "md:bg-[rgba(0,0,0,0.105)]",
     },
     {
       iconName: "park",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Freiluft-Bildung",
+      title: "Outdoor Education",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Offer workshops on sustainable farming, environmental care, and solidarity agriculture.",
       background: "md:bg-[rgba(0,0,0,0.14)]",
     },
     {
       iconName: "compost",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Haltung gefährdeter Haustierrassen",
+      title: "Endangered Livestock Breeds",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Preserve rare breeds to protect genetic diversity and promote sustainable farming practices.",
       background: "md:bg-[rgba(0,0,0,0.175)]",
     },
     {
       iconName: "spa",
       iconSize: "small",
       iconColor: "secondary" as Color,
-      title: "Vom Umgang mit Gemüse und Kräutern",
+      title: "Vegetables and Herbs",
       description:
-        "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.",
+        "Cultivate and manage diverse produce to ensure quality, enhance flavors, and support nutrition.",
       background: "md:bg-[rgba(0,0,0,0.21)]",
     },
   ];
@@ -70,14 +70,11 @@ export const InfoTwo = () => {
       <div className="mx-auto px-4">
         <header className="mb-4 lg:mb-8">
           <h2 className="mb-8 uppercase text-white">
-            Accumsan mus tortor nunc aliquet
+            Sustainable Farming, Rooted in Community
           </h2>
           <p className="pb-8">
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            Embrace regenerative practices and ecological harmony.<br/> Together, we
+            cultivate a healthier planet for future generations.
           </p>
         </header>
 

@@ -9,24 +9,24 @@ export const InfoOne = () => {
         imageSrc="/images/pic01.jpg"
         heading={
           <>
-            Das kommt mir
+            Straight from the
             <br />
-            unbedingt in die Kiste
+            field to your box
           </>
         }
-        paragraphText="Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula."
+        paragraphText="Discover the freshest produce grown with care and love. Every item in your box supports sustainable farming and our shared vision for a greener future."
         background="gray-075"
       />
       <ImageText
         imageSrc="/images/pic02.jpg"
         heading={
           <>
-            Permakultur
+            Permaculture:
             <br />
-            ist angewandter Klimaschutz
+            Climate action in practice
           </>
         }
-        paragraphText="Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula."
+        paragraphText="Our commitment to permaculture restores ecosystems, enriches soil health, and actively combats climate change with every harvest."
         background="gray-15"
         reverse
       />
@@ -34,17 +34,18 @@ export const InfoOne = () => {
         imageSrc="/images/pic03.jpg"
         heading={
           <>
-            Warum sind unsere
+            Why do our
             <br />
-            Gurken gerne krumm?
+            cucumbers grow crooked?
           </>
         }
-        paragraphText="Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula."
+        paragraphText="Because nature isn’t perfect, and neither are we. Our focus is on quality and taste, not uniform shapes, to bring you food as nature intended."
         background="gray-224"
       />
     </section>
   );
 };
+
 
 export const ImageText = ({
   imageSrc,
