@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section className="pt-28 pb-20 px-12 relative md:h-screen md:p-0 bg-gray-25 flex items-center flex-col justify-center">
       <FixedBackground
-        src="/images/banner.jpg"
+        src="/images/pock.jpg"
         alt="Bilder von Möhren"
         color="gray-500"
       />
@@ -15,25 +15,24 @@ export const Hero = () => {
       {/** Vorhand */}
       <div className="absolute w-full h-full bg-style5-strong z-20 animate-bannerFadeOut [animation-delay:_1.25s]"></div>
 
+      <div className="md:h-[6rem]"></div>
+
       {/** Logo */}
       <Image
-        className="relative z-20 w-[17rem] mb-4 animate-heroLogoPopup"
-        src="/images/geerdet_logo.png"
+        className="relative z-20 w-[22rem] md:w-[28rem] mb-4 md:mb-[4rem] animate-heroLogoPopup"
+        src="/images/geerdet Logo 24.png"
         width={1000}
         height={1000}
         alt="Bilder von Möhren"
       />
 
       {/** Line */}
-      <div className="h-[2px] bg-white z-30 mb-6 animate-lineIn [animation-delay:_0.5s]" />
+      {/* <div className="h-[2px] bg-white z-30 mb-6 animate-lineIn [animation-delay:_0.5s]" /> */}
 
       {/** Text */}
-      <p className="text-white relative z-10 text-center uppercase tracking-wide">
-        Our Solidarity
-        <br />
-        Agriculture
-        <br />
-        in Taunusstein.
+      <p className="text-orange relative z-10 text-center uppercase tracking-wide text-5 font-[600]">
+        Unsere Solidarische <br />
+        Landwirtschaft <br /> in Taunsstein
       </p>
 
       {/** Extra space for golden ratio */}

@@ -7,7 +7,7 @@ export const InfoTwo = () => {
     {
       iconName: "park",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Agroforestry System",
       description:
         "Integrate trees and shrubs into our farms to boost biodiversity, improve soil, and create sustainable ecosystems.",
@@ -16,7 +16,7 @@ export const InfoTwo = () => {
     {
       iconName: "compost",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Ecological Farming",
       description:
         "Use organic methods to reduce environmental impact, support pest control, and ensure fertile soils.",
@@ -25,7 +25,7 @@ export const InfoTwo = () => {
     {
       iconName: "spa",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Regenerative Cultivation",
       description:
         "Restore soils, store carbon, and harmonize with nature to create thriving ecosystems.",
@@ -34,7 +34,7 @@ export const InfoTwo = () => {
     {
       iconName: "park",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Outdoor Education",
       description:
         "Offer workshops on sustainable farming, environmental care, and solidarity agriculture.",
@@ -43,7 +43,7 @@ export const InfoTwo = () => {
     {
       iconName: "compost",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Endangered Livestock Breeds",
       description:
         "Preserve rare breeds to protect genetic diversity and promote sustainable farming practices.",
@@ -52,7 +52,7 @@ export const InfoTwo = () => {
     {
       iconName: "spa",
       iconSize: "small",
-      iconColor: "secondary" as Color,
+      iconColor: "altBrown" as Color,
       title: "Vegetables and Herbs",
       description:
         "Cultivate and manage diverse produce to ensure quality, enhance flavors, and support nutrition.",
@@ -63,7 +63,7 @@ export const InfoTwo = () => {
   return (
     <section
       id="three"
-      className="bg-style3-bg text-style3-text text-center p-[3rem_2rem_1rem_2rem] 
+      className="bg-brown text-style3-text text-center p-[3rem_2rem_1rem_2rem] 
                 md:p-[4rem_3rem_2rem_3rem] 
                 lg:p-[6rem_0_4rem_0]"
     >

@@ -6,7 +6,7 @@ export const InfoOne = () => {
   return (
     <section className="bg-background">
       <ImageText
-        imageSrc="/images/pic01.jpg"
+        imageSrc="/images/stroh.jpeg"
         heading={
           <>
             Straight from the
@@ -18,7 +18,7 @@ export const InfoOne = () => {
         background="gray-075"
       />
       <ImageText
-        imageSrc="/images/pic02.jpg"
+        imageSrc="/images/blume.jpeg"
         heading={
           <>
             Permaculture:
@@ -31,7 +31,7 @@ export const InfoOne = () => {
         reverse
       />
       <ImageText
-        imageSrc="/images/pic03.jpg"
+        imageSrc="/images/amisch.jpeg"
         heading={
           <>
             Why do our
@@ -74,7 +74,7 @@ export const ImageText = ({
           alt={imageAlt}
           width={600}
           height={400}
-          className="w-full h-auto"
+          className="w-full md:h-[28rem] h-[32rem] object-cover"
         />
       </div>
       <div className={`w-full text-center md:w-[60%] md:text-left p-12`}>

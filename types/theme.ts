@@ -12,6 +12,7 @@ export type Color =
 | "gray-500" 
 | "gray-700" 
 | "background" 
+| "altBrown" 
 | "primary" 
 | "secondary" 
 | "accent1" 

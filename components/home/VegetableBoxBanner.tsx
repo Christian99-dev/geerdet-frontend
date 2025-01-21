@@ -6,10 +6,10 @@ export const VegetableBoxBanner = () => {
       <Image
         fill
         className="absolute w-full h-full object-cover z-10"
-        src="/images/banner.jpg"
+        src="/images/kartoffel.jpeg"
         alt="Fresh vegetable box subscription"
       />
-
+      
       <div
         className={`absolute z-[15] bg-gray-500 top-0 left-0 right-0 bottom-0`}
       />
