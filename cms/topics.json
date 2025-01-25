@@ -1,0 +1,32 @@
+[
+  {
+    "iconName": "park",
+    "title": "Agroforestry System",
+    "description": "Integrate trees and shrubs into our farms to boost biodiversity, improve soil, and create sustainable ecosystems."
+  },
+  {
+    "iconName": "compost",
+    "title": "Ecological Farming",
+    "description": "Use organic methods to reduce environmental impact, support pest control, and ensure fertile soils."
+  },
+  {
+    "iconName": "spa",
+    "title": "Regenerative Cultivation",
+    "description": "Restore soils, store carbon, and harmonize with nature to create thriving ecosystems."
+  },
+  {
+    "iconName": "park",
+    "title": "Outdoor Education",
+    "description": "Offer workshops on sustainable farming, environmental care, and solidarity agriculture."
+  },
+  {
+    "iconName": "compost",
+    "title": "Endangered Livestock Breeds",
+    "description": "Preserve rare breeds to protect genetic diversity and promote sustainable farming practices."
+  },
+  {
+    "iconName": "spa",
+    "title": "Vegetables and Herbs",
+    "description": "Cultivate and manage diverse produce to ensure quality, enhance flavors, and support nutrition."
+  }
+]
