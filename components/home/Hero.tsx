@@ -3,7 +3,7 @@ import FixedBackground from "../shared/FixedBackground";
 import Icon from "../shared/Icon";
 import Link from "next/link";
 
-export const Hero = () => {
+export default async function Hero() {
   return (
     <section className="pt-28 pb-20 px-12 relative md:h-screen md:p-0 bg-gray-25 flex items-center flex-col justify-center">
       <FixedBackground

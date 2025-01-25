@@ -1,6 +1,6 @@
 import Icon from "../shared/Icon";
 
-export const BannerOne = () => {
+export default async function BannerOne() {
   return (
     <section
       className="bg-primary 

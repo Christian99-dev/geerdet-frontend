@@ -2,7 +2,7 @@ import { Color } from "@/types/theme";
 import Image from "next/image";
 import { ReactNode } from "react";
 
-export const InfoOne = () => {
+export default async function InfoOne() {
   return (
     <section className="bg-background">
       <ImageText
