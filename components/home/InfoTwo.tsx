@@ -18,8 +18,9 @@ export default async function InfoTwo() {
             Sustainable Farming, Rooted in Community
           </h2>
           <p className="pb-8">
-            Embrace regenerative practices and ecological harmony.<br/> Together, we
-            cultivate a healthier planet for future generations.
+            Embrace regenerative practices and ecological harmony.
+            <br /> Together, we cultivate a healthier planet for future
+            generations.
           </p>
         </header>
 
@@ -55,15 +56,19 @@ const FeatureItem = ({
 }) => {
   return (
     <li
-      className={`flex flex-col items-center text-center relative p-[3rem_2rem_1rem_2rem] 
-                md:p-[3rem_2rem_1rem_2rem] 
-                lg:p-[4rem_4rem_2rem_6rem] justify-center lg:justify-normal lg:text-left ${background}`}
+      className={`flex flex-col items-center text-center relative  justify-center lg:justify-normal lg:text-left ${background} cursor-pointer`}
     >
-      <div className="lg:absolute lg:left-12 lg:top-[4.5rem]">
-        <Icon name={iconName} size="small" color="altBrown" />
+      <div
+        className="flex flex-col items-center text-center lg:justify-normal lg:text-left transition-transform duration-default hover:scale-105 p-[3rem_2rem_1rem_2rem]
+                md:p-[3rem_2rem_1rem_2rem] 
+                lg:p-[4rem_4rem_2rem_6rem]"
+      >
+        <div className="lg:absolute lg:left-12 lg:top-[4.5rem]">
+          <Icon name={iconName} size="small" color="altBrown" />
+        </div>
+        <h2 className="mt-1 mb-4 uppercase text-white">{title}</h2>
+        <p>{description}</p>
       </div>
-      <h2 className="mt-1 mb-4 uppercase text-white">{title}</h2>
-      <p>{description}</p>
     </li>
   );
 };

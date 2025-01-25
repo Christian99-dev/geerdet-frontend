@@ -70,7 +70,6 @@ export default {
 
       orange: "#ffbf60",
       brown: "#705e5e",
-      // altBrown: "#453b3b",
       altBrown: "#a88f8f",
       background: "#2e3842",
       primary: "#1b5e67",

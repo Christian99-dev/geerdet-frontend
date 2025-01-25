@@ -68,6 +68,24 @@ export default function Theme() {
         <Icon size="small" name="spa" color="accent3" />
         <Icon size="small" name="south" color="accent3" />
       </div>
+
+      <div className="
+      bg-footer 
+      flex 
+      justify-center 
+      cursor-pointer 
+      text-white 
+      text-3xl 
+      items-center 
+      p-4
+      
+      transform 
+      hover:scale-105 
+      duration-default 
+      transition-transform 
+      ">
+        Hover
+      </div>
     </div>
   );
 }
