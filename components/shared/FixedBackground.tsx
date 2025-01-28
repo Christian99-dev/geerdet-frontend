@@ -1,6 +1,11 @@
 import { Color } from "@/types/theme";
 import Image from "next/image";
 
+/**
+ * FixedBackground component displays a full-width, fixed background image
+ * with an optional overlay color, covering the entire width and height
+ * of the nearest relative parent element.
+ */
 const FixedBackground = ({
   src,
   color,
