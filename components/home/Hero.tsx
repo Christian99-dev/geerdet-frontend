@@ -20,10 +20,10 @@ export default async function Hero() {
       {/** Logo */}
       <Image
         className="relative z-20 w-[22rem] md:w-[28rem] mb-4 md:mb-[4rem] animate-heroLogoPopup"
-        src="/images/geerdet Logo 24.png"
+        src="/svg/logo.svg"
         width={1000}
         height={1000}
-        alt="Bilder von Möhren"
+        alt="Geerdet Logo"
       />
 
       {/** Line */}
