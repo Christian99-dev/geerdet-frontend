@@ -72,6 +72,7 @@ export default {
       brown: "#705e5e",
       altBrown: "#a88f8f",
       background: "#2e3842",
+      backgroundTransparent: "#2e3842",
       primary: "#1b5e67",
       secondary: "#21b2a6",
       accent1: "#00ffcc",
