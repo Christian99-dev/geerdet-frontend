@@ -1,4 +1,5 @@
 import Button from "@/components/shared/Button";
+import FixedBackgroundSection from "@/components/shared/FixedBackgroundSection";
 import Icon from "@/components/shared/Icon";
 import Link from "@/components/shared/Link";
 
@@ -69,7 +70,8 @@ export default function Theme() {
         <Icon size="small" name="south" color="accent3" />
       </div>
 
-      <div className="
+      <div
+        className="
       bg-footer 
       flex 
       justify-center 
@@ -83,9 +85,28 @@ export default function Theme() {
       hover:scale-105 
       duration-default 
       transition-transform 
-      ">
+      "
+      >
         Hover
       </div>
+
+      <FixedBackgroundSection
+        img="/images/kartoffel.jpeg"
+        color="gray-500"
+        className="h-[10rem] text-white"
+        alt="Bilder von Kartoffeln"
+      >
+        Test
+      </FixedBackgroundSection>
+
+      <FixedBackgroundSection
+        img="/images/pock.jpg"
+        color="gray-50"
+        className="h-[10rem] text-white"
+        alt="Bilder von Möhren"
+      >
+        Test
+      </FixedBackgroundSection>
     </div>
   );
 }

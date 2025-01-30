@@ -1,17 +1,16 @@
 import Image from "next/image";
-import FixedBackground from "../shared/FixedBackground";
+import FixedBackgroundSection from "@/components/shared/FixedBackgroundSection";
 import Icon from "../shared/Icon";
 import Link from "next/link";
 
 export default async function Hero() {
   return (
-    <section className="pt-28 pb-20 px-12 relative md:h-screen md:p-0 bg-gray-25 flex items-center flex-col justify-center">
-      <FixedBackground
-        src="/images/pock.jpg"
-        alt="Bilder von Möhren"
-        color="gray-500"
-      />
-
+    <FixedBackgroundSection
+      className="pt-28 pb-20 px-12 relative h-[500px] md:h-screen md:p-0 bg-gray-25 flex items-center flex-col justify-center"
+      img="/images/pock.jpg"
+      alt="Bilder von Möhren"
+      color="gray-500"
+    >
       {/** Vorhand */}
       <div className="absolute w-full h-full bg-style5-strong z-20 animate-bannerFadeOut [animation-delay:_1.25s]"></div>
 
@@ -46,6 +45,6 @@ export default async function Hero() {
         <p className="uppercase text-8 tracking-wide mb-2">Continue Here</p>
         <Icon name="south" color="white" size="small" />
       </Link>
-    </section>
+    </FixedBackgroundSection>
   );
-};
+}
