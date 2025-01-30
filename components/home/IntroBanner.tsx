@@ -1,6 +1,6 @@
 import Icon from "../shared/Icon";
 
-export default async function BannerOne() {
+export default async function IntroBanner() {
   return (
     <section
       className="bg-primary 

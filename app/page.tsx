@@ -1,4 +1,4 @@
-import BannerOne from "@/components/home/BannerOne";
+import IntroBanner from "@/components/home/IntroBanner";
 import Hero from "@/components/home/Hero";
 import InfoOne from "@/components/home/InfoOne";
 import InfoTwo from "@/components/home/InfoTwo";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <BannerOne />
+      <IntroBanner />
       <InfoOne />
       <InfoTwo />
       <VegetableBoxBanner />
