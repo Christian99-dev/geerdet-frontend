@@ -1,15 +1,15 @@
 import Button from "../shared/Button";
 import FixedBackgroundSection from "../shared/FixedBackgroundSection";
 
-export default async function VegetableBoxBanner() {
+export default async function OfferBanner() {
   return (
-<FixedBackgroundSection
+    <FixedBackgroundSection
       color="gray-700"
-      img="/images/kartoffel.jpeg"
+      img="/images/pock.jpg"
       alt="Fresh vegetable box subscription"
       className="p-[6em_0_4em_0] text-center relative flex flex-col items-center gap-6"
     >
-      <h2 className="uppercase">Vegetable Box Subscription</h2>
+      <h2 className="uppercase">ARTEMISIA, HONIG oder doch etwas anderes?</h2>
 
       <p>
         Coming soon: Fresh, seasonal vegetable boxes straight from our field.
@@ -17,7 +17,7 @@ export default async function VegetableBoxBanner() {
         Support sustainable farming and enjoy nature's best!
       </p>
 
-      <Button text="Gemüsekiste Sichern!" variant="default" size="small" />
+      <Button text="Zu unseren Angeboten" variant="default" size="small" />
     </FixedBackgroundSection>
   );
 }

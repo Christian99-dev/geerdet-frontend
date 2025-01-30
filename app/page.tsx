@@ -5,6 +5,7 @@ import InfoTwo from "@/components/home/InfoTwo";
 import VegetableBoxBanner from "@/components/home/VegetableBoxBanner";
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
+import OfferBanner from "@/components/home/OfferBanner";
 
 export default function Home() {
   return (
@@ -12,9 +13,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <IntroBanner />
+      <VegetableBoxBanner />
       <InfoOne />
       <InfoTwo />
-      <VegetableBoxBanner />
+      <OfferBanner />
       <Footer />
     </>
   );
