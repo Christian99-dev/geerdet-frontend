@@ -5,7 +5,7 @@ const Button = ({
   onClick,
 }: {
   text: string;
-  variant?: "default" | "primary";
+  variant?: "default" | "primary" | "secondary";
   size?: "small" | "default" | "large";
   onClick?: () => void;
 }) => {
@@ -27,6 +27,8 @@ const Button = ({
   const variantClasses =
     variant === "primary"
       ? "!bg-primary border-primary hover:border-gray-50"
+      : variant === "secondary"
+      ? "!bg-primary !border-primary hover:!border-gray-50"
       : "hover:bg-gray-25 active:bg-gray-50";
 
   return (
