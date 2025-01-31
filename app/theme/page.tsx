@@ -101,7 +101,7 @@ export default function Theme() {
 
       <FixedBackgroundSection
         img="/images/pock.jpg"
-        color="gray-50"
+        color="gray-700"
         className="h-[10rem] text-white"
         alt="Bilder von Möhren"
       >

@@ -3,7 +3,7 @@ import FixedBackgroundSection from "../shared/FixedBackgroundSection";
 
 export default async function VegetableBoxBanner() {
   return (
-<FixedBackgroundSection
+    <FixedBackgroundSection
       color="gray-700"
       img="/images/kartoffel.jpeg"
       alt="Fresh vegetable box subscription"

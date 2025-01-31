@@ -6,7 +6,7 @@ import Link from "next/link";
 export default async function Hero() {
   return (
     <FixedBackgroundSection
-      className="pt-28 pb-20 px-12 relative h-[500px] md:h-screen md:p-0 bg-gray-25 flex items-center flex-col justify-center"
+      className="h-[500px] md:h-screen pt-28 pb-20 px-12  md:p-0 bg-gray-25 flex items-center flex-col justify-center"
       img="/images/pock.jpg"
       alt="Bilder von Möhren"
       color="gray-500"
