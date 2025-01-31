@@ -12,11 +12,11 @@ export default async function FixedBackgroundSection({
   className?: string;
 }) {
   return (
-    <div
+    <section
       className={`bg-cover bg-center bg-${color} bg-blend-overlay bg-fixed ${className}`}
       style={{ backgroundImage: `url(${img})` }}
     >
       {children}
-    </div>
+    </section>
   );
 }
