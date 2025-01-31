@@ -9,10 +9,8 @@ export type NavLink = {
 
 const navLinks: NavLink[] = [
   { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Services", href: "/services" },
-  { name: "Contact", href: "/contact" },
   { name: "Gemüsekiste", href: "/gemuesekiste" },
+  { name: "Angebote", href: "/angebote" },
 ];
 
 export default function Navbar() {

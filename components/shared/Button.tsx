@@ -1,12 +1,16 @@
+import Link from 'next/link';
+
 const Button = ({
   text,
   variant = "default",
   size = "default",
+  href,
   onClick,
 }: {
   text: string;
   variant?: "default" | "primary" | "secondary";
   size?: "small" | "default" | "large";
+  href?: string;
   onClick?: () => void;
 }) => {
   // Basis-Klassen
@@ -28,10 +32,10 @@ const Button = ({
     variant === "primary"
       ? "!bg-primary border-primary hover:border-gray-50"
       : variant === "secondary"
-      ? "!bg-primary !border-primary hover:!border-gray-50"
+      ? "!bg-secondary border-secondary hover:border-gray-50"
       : "hover:bg-gray-25 active:bg-gray-50";
 
-  return (
+  const buttonElement = (
     <button
       onClick={onClick}
       className={`${baseClasses} ${sizeClasses} ${variantClasses}`}
@@ -39,6 +43,16 @@ const Button = ({
       {text}
     </button>
   );
+
+  if (href) {
+    return (
+      <Link href={href}>
+        {buttonElement}
+      </Link>
+    );
+  }
+
+  return buttonElement;
 };
 
 export default Button;

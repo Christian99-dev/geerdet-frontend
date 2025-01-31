@@ -17,7 +17,7 @@ export default async function OfferBanner() {
         Support sustainable farming and enjoy nature's best!
       </p>
 
-      <Button text="Zu unseren Angeboten" variant="default" size="small" />
+      <Button href="/angebote" text="Zu unseren Angeboten" variant="default" size="small" />
     </FixedBackgroundSection>
   );
 }
