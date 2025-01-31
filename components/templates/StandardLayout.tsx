@@ -25,7 +25,7 @@ export default function StandardLayout({
           {title}
         </h1>
       </FixedBackgroundSection>
-      <div className="text-7 text-center items-center px-8 md:px-[25%] py-8 md:py-16 text-black bg-orange/50 flex flex-col gap-6">
+      <div className="text-7 text-center items-center px-8 md:px-[25%] py-8 md:py-16 text-background bg-orange/50 flex flex-col gap-6">
         {children}
       </div>
       <Footer />
@@ -35,12 +35,12 @@ export default function StandardLayout({
 
 export function Titel({ titel }: { titel: string }) {
   return (
-    <h2 className="text-7 font-bold uppercase text-background">{titel}</h2>
+    <h2 className="text-7 font-bold uppercase">{titel}</h2>
   );
 }
 
 export function Paragraph({ text }: { text: string }) {
-  return <p>{text}</p>;
+  return <p className="text-8">{text}</p>;
 }
 
 export function Img({ src, alt }: { src: string; alt: string }) {
