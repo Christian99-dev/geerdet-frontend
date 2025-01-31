@@ -1,4 +1,4 @@
-import { type Topics } from "@/types/endpointsResponse";
+import { type Topics, type Legal } from "@/types/endpointsResponse";
 import fsPromises from "fs/promises";
 import path from "path";
 
@@ -20,4 +20,7 @@ const fetchLocal = async (name: string): Promise<any> => {
 /**
  * Endpoints
  */
-export const fetchTopics = async (): Promise<Topics> => fetchLocal("topics.json");
+export const fetchTopics      = async (): Promise<Topics>     => fetchLocal("topics.json");
+export const fetchImpressum   = async (): Promise<Legal>      => fetchLocal("impressum.json");
+export const fetchDatenschutz = async (): Promise<Legal>      => fetchLocal("datenschutz.json");
+

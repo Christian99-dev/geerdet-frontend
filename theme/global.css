@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('policy.css');
+
 h1,
 h2,
 h3,
