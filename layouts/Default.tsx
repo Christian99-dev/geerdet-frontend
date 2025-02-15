@@ -1,9 +1,9 @@
 import Navbar from "@/components/shared/Navbar";
-import FixedBackgroundSection from "../shared/FixedBackgroundSection";
-import Footer from "../shared/Footer";
+import FixedBackgroundSection from "../components/shared/FixedBackgroundSection";
+import Footer from "../components/shared/Footer";
 import Image from "next/image";
 
-export default function StandardLayout({
+export default function Default({
   title,
   img,
   children,
