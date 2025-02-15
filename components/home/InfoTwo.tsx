@@ -1,6 +1,6 @@
 import Icon from "../shared/Icon";
-import { fetchTopics } from "@/services/api/endpointsLocal";
-import { type Topics } from "@/types/endpointsResponse";
+import { fetchTopics } from "@/services/cms/local";
+import { type Topics } from "@/types/services/cms/local";
 
 export default async function InfoTwo() {
   const topics: Topics = await fetchTopics();

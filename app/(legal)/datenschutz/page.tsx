@@ -1,6 +1,6 @@
 import React from "react";
 import Default from "@/layouts/Default";
-import { fetchLegalText } from "@/services/api/endpointsLocal";
+import { fetchLegalText } from "@/services/cms/local";
 
 export default async function Datenschutz() {
   const { text, title, img } = await fetchLegalText("datenschutz");

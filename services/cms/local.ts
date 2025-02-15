@@ -1,4 +1,4 @@
-import { type Topics, type Legal } from "@/types/endpointsResponse";
+import { type Topics, type Legal } from "@/types/services/cms/local";
 import fsPromises from "fs/promises";
 import path from "path";
 
