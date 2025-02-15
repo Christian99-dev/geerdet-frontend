@@ -2,6 +2,8 @@ import Navbar from "@/components/shared/Navbar";
 import FixedBackgroundSection from "../components/shared/FixedBackgroundSection";
 import Footer from "../components/shared/Footer";
 import Image from "next/image";
+import Button from "@/components/shared/Button";
+import { type DownloadButton, type Img, type Paragraph, type Titel } from "@/types/layouts/default";
 
 export default function Default({
   title,
@@ -33,16 +35,30 @@ export default function Default({
   );
 }
 
-export function Titel({ titel }: { titel: string }) {
+export function Titel({ titel }: Titel) {
   return (
     <h2 className="text-7 font-bold uppercase">{titel}</h2>
   );
 }
 
-export function Paragraph({ text }: { text: string }) {
+export function Paragraph({ text }: Paragraph) {
   return <p className="text-8">{text}</p>;
 }
 
-export function Img({ src, alt }: { src: string; alt: string }) {
+export function Img({ src, alt }: Img) {
   return <Image width={1000} height={1000} className="w-full aspect-video object-cover" src={src} alt={alt} />;
+}
+
+export function DownloadButton({ text, downloadLink }: DownloadButton) {
+  return (
+    <Button
+      text={text}
+      onClick={() => {
+        const link = document.createElement("a");
+        link.href = downloadLink;
+        link.download = downloadLink.split("/").pop() || "download";
+        link.click();
+      }}
+    />
+  );
 }
