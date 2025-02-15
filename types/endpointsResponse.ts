@@ -5,5 +5,7 @@ export type Topics = {
 }[];
 
 export type Legal = {
+  title: string;
+  img: string;
   text: string;
 };

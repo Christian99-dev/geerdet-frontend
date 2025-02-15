@@ -1,11 +1,11 @@
 import React from "react";
 import Default from "@/layouts/Default";
-import { fetchDatenschutz } from "@/services/api/endpointsLocal";
+import { fetchLegalText } from "@/services/api/endpointsLocal";
 
 export default async function Datenschutz() {
-  const { text } = await fetchDatenschutz();
+  const { text, title, img } = await fetchLegalText("datenschutz");
   return (
-    <Default title="Datenschutz" img="/images/kartoffel.jpeg">
+    <Default title={title} img={img}>
       <div className="policy" dangerouslySetInnerHTML={{ __html: text }} />
     </Default>
   );

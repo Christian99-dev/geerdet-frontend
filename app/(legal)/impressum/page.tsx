@@ -1,11 +1,11 @@
 import React from "react";
 import Default from "@/layouts/Default";
-import { fetchImpressum } from "@/services/api/endpointsLocal";
+import { fetchLegalText } from "@/services/api/endpointsLocal";
 
 export default async function Impressum() {
-  const { text } = await fetchImpressum();
+  const { text, title, img } = await fetchLegalText("impressum");
   return (
-    <Default title="Impressum" img="/images/kartoffel.jpeg">
+    <Default title={title} img={img}>
       <div className="policy" dangerouslySetInnerHTML={{ __html: text }} />
     </Default>
   );
