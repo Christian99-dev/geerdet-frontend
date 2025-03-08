@@ -1,12 +1,10 @@
 export default async function FixedBackgroundSection({
   img,
-  alt,
   color,
   children,
   className,
 }: {
   img: string;
-  alt: string;
   color: string;
   children: React.ReactNode;
   className?: string;

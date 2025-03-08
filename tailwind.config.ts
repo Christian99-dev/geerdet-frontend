@@ -45,6 +45,7 @@ export default {
     // Fonts
     transitionDuration: {
       default: "0.2s",
+      images:"0.7s"
     },
     transitionTimingFunction: {
       default: "ease",
