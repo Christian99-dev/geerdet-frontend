@@ -2,37 +2,43 @@
   {
     "id": 1,
     "iconName": "park",
-    "title": "Agroforestry System",
-    "description": "Integrate trees and shrubs into our farms to boost biodiversity, improve soil, and create sustainable ecosystems."
+    "title": "geerdet Anbau & Warum",
+    "description": "Mit geerdet setzen wir auf nachhaltige Agroforstsysteme, die Biodiversität fördern, den Boden regenerieren und regionale Lebensmittel sichern.",
+    "slug": "geerdet"
   },
   {
     "id": 2,
     "iconName": "compost",
-    "title": "Ecological Farming",
-    "description": "Use organic methods to reduce environmental impact, support pest control, and ensure fertile soils."
+    "title": "Solidarische Landwirtschaft",
+    "description": "Bei uns bist Du Teil der Gemeinschaft: Ernteanteile sichern gesunde, saisonale Produkte und finanzieren nachhaltigen Anbau.",
+    "slug": "solawi"
   },
   {
     "id": 3,
     "iconName": "spa",
-    "title": "Regenerative Cultivation",
-    "description": "Restore soils, store carbon, and harmonize with nature to create thriving ecosystems."
+    "title": "Dabeisein & Mitmachen",
+    "description": "Pack mit an und erlebe nachhaltige Landwirtschaft – von der Aussaat bis zur Ernte, gemeinsam frisch und regional.",
+    "slug": "dabeisein"
   },
   {
     "id": 4,
     "iconName": "park",
-    "title": "Outdoor Education",
-    "description": "Offer workshops on sustainable farming, environmental care, and solidarity agriculture."
+    "title": "Neun gute Gründe",
+    "description": "Genieße frisches, saisonales Gemüse per Abo und unterstütze direkte, regionale Landwirtschaft.",
+    "slug": "gemueseabo"
   },
   {
     "id": 5,
     "iconName": "compost",
-    "title": "Endangered Livestock Breeds",
-    "description": "Preserve rare breeds to protect genetic diversity and promote sustainable farming practices."
+    "title": "Was ist der Plan?",
+    "description": "Unser Sortiment 2025 zeigt, wie nachhaltiger Gemüseanbau in Zukunft aussieht – vielseitig und regional.",
+    "slug": "plan"
   },
   {
     "id": 6,
     "iconName": "spa",
-    "title": "Vegetables and Herbs",
-    "description": "Cultivate and manage diverse produce to ensure quality, enhance flavors, and support nutrition."
+    "title": "Termine, Events, Galerie",
+    "description": "Informiere Dich über spannende Termine, Events und erhalte Einblicke in unsere Fotogalerie.",
+    "slug": "terminevents"
   }
 ]
