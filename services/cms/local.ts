@@ -21,5 +21,5 @@ const fetchLocal = async (name: string): Promise<any> => {
  * Endpoints
  */
 export const fetchTopics      = async (): Promise<Topics>     => fetchLocal("topics.json");
-export const fetchLegalText = async (slug: "impressum" | "datenschutz"): Promise<Legal> => fetchLocal(`${slug}.json`)
+export const fetchLegalText   = async (slug: "impressum" | "datenschutz"): Promise<Legal> => fetchLocal(`${slug}.json`)
 

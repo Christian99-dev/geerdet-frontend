@@ -26,7 +26,7 @@ export default async function Hero() {
       />
 
       {/** Line */}
-      {/* <div className="h-[2px] bg-white z-30 mb-6 animate-lineIn [animation-delay:_0.5s]" /> */}
+      <div className="h-[2px] bg-orange z-30 mb-6 animate-lineIn [animation-delay:_0.5s]" /> 
 
       {/** Text */}
       <p className="text-orange relative z-10 text-center uppercase tracking-wide text-5 font-[600]">
