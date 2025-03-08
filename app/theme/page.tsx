@@ -94,7 +94,6 @@ export default function Theme() {
         img="/images/kartoffel.jpeg"
         color="gray-500"
         className="h-[10rem] text-white"
-        alt="Bilder von Kartoffeln"
       >
         Test
       </FixedBackgroundSection>
@@ -103,7 +102,6 @@ export default function Theme() {
         img="/images/pock.jpg"
         color="gray-700"
         className="h-[10rem] text-white"
-        alt="Bilder von Möhren"
       >
         Test
       </FixedBackgroundSection>
