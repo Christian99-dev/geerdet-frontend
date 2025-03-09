@@ -23,8 +23,10 @@ export default function Layout({
           {title}
         </h1>
       </FixedBackgroundSection>
-      <div className="text-7 text-center items-center px-8 md:px-[25%] py-8 md:py-16 text-background bg-orange/50 flex flex-col gap-6">
-        {children}
+      <div className="bg-orange/50">
+        <div className="flex flex-col gap-6 text-7 text-center md:text-left py-8 md:py-16 text-background container mx-auto">
+          {children}
+        </div>
       </div>
       <Footer />
     </>

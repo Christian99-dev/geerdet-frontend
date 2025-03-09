@@ -6,7 +6,6 @@ export default async function OfferBanner() {
     <FixedBackgroundSection
       color="gray-700"
       img="/images/pock.jpg"
-      alt="Fresh vegetable box subscription"
       className="p-[6em_0_4em_0] text-center relative flex flex-col items-center gap-6"
     >
       <h2 className="uppercase">ARTEMISIA, HONIG oder doch etwas anderes?</h2>
@@ -17,7 +16,7 @@ export default async function OfferBanner() {
         Support sustainable farming and enjoy nature's best!
       </p>
 
-      <Button href="/angebote" text="Zu unseren Angeboten" variant="default" size="small" />
+      <Button href="/sortiment" text="Zu unseren Angeboten" variant="default" size="small" />
     </FixedBackgroundSection>
   );
 }
