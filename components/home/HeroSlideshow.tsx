@@ -11,7 +11,7 @@ export default async function HeroSlideshow() {
         { src: "/images/amisch.jpeg", alt: "Amisch" },
         { src: "/images/blume.jpeg", alt: "Blume" },
         { src: "/images/kartoffel.jpeg", alt: "Kartoffel" },
-        { src: "/images/pock.jpeg", alt: "Pock" },
+        { src: "/images/pock.jpg", alt: "Pock" },
         { src: "/images/stroh.jpeg", alt: "Stroh" },
       ]}
       color="gray-500"

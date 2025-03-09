@@ -26,9 +26,10 @@ export default async function InfoTwo() {
 
         {/* Liste der Features */}
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:w-[60em] lg:mx-auto">
-          {topics.map(({ iconName, title, description }, index) => {
+          {topics.map(({ iconName, title, description, slug }, index) => {
             return (
               <FeatureItem
+                slug={slug}
                 key={index}
                 iconName={iconName}
                 title={title}
@@ -48,27 +49,31 @@ const FeatureItem = ({
   title,
   description,
   background,
+  slug,
 }: {
   iconName: string;
   title: string;
   description: string;
   background: string;
+  slug: string;
 }) => {
   return (
     <li
       className={`flex flex-col items-center text-center relative  justify-center lg:justify-normal lg:text-left ${background} cursor-pointer`}
     >
-      <div
-        className="flex flex-col items-center text-center lg:justify-normal lg:text-left transition-transform duration-default hover:scale-105 p-[3rem_2rem_1rem_2rem]
+      <a href={`/${slug}`}>
+        <div
+          className="flex flex-col items-center text-center lg:justify-normal lg:text-left transition-transform duration-default hover:scale-105 p-[3rem_2rem_1rem_2rem]
                 md:p-[3rem_2rem_1rem_2rem] 
                 lg:p-[4rem_4rem_2rem_6rem]"
-      >
-        <div className="lg:absolute lg:left-12 lg:top-[4.5rem]">
-          <Icon name={iconName} size="small" color="altBrown" />
+        >
+          <div className="lg:absolute lg:left-12 lg:top-[4.5rem]">
+            <Icon name={iconName} size="small" color="altBrown" />
+          </div>
+          <h2 className="mt-1 mb-4 uppercase text-white">{title}</h2>
+          <p>{description}</p>
         </div>
-        <h2 className="mt-1 mb-4 uppercase text-white">{title}</h2>
-        <p>{description}</p>
-      </div>
+      </a>
     </li>
   );
 };

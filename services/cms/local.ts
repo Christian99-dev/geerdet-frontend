@@ -1,4 +1,4 @@
-import { type Topics, type Legal } from "@/types/services/cms/local";
+import { type Topics, type Topic, type Legal, TopicSlugs } from "@/types/services/cms/local";
 import fsPromises from "fs/promises";
 import path from "path";
 
@@ -21,5 +21,9 @@ const fetchLocal = async (name: string): Promise<any> => {
  * Endpoints
  */
 export const fetchTopics      = async (): Promise<Topics>     => fetchLocal("topics.json");
-export const fetchLegalText   = async (slug: "impressum" | "datenschutz"): Promise<Legal> => fetchLocal(`${slug}.json`)
+export const fetchTopic       = async (slug: TopicSlugs): Promise<Topic | undefined>      => {
+  const topics: Topics = await fetchTopics();
+  return topics.find(topic => topic.slug === slug);
+};
+export const fetchLegalText   = async (slug: "impressum" | "datenschutz"): Promise<Legal> => fetchLocal(`${slug}.json`);
 

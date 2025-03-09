@@ -1,12 +1,12 @@
 import React from "react";
-import Default from "@/layouts/Default";
 import { fetchLegalText } from "@/services/cms/local";
+import Layout from "@/components/shared/Layout";
 
 export default async function Impressum() {
   const { text, title, img } = await fetchLegalText("impressum");
   return (
-    <Default title={title} img={img}>
+    <Layout title={title} img={img}>
       <div className="policy" dangerouslySetInnerHTML={{ __html: text }} />
-    </Default>
+    </Layout>
   );
 }

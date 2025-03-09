@@ -6,7 +6,6 @@ export default async function VegetableBoxBanner() {
     <FixedBackgroundSection
       color="gray-700"
       img="/images/kartoffel.jpeg"
-      alt="Fresh vegetable box subscription"
       className="p-[6em_0_4em_0] text-center relative flex flex-col items-center gap-6"
     >
       <h2 className="uppercase">Vegetable Box Subscription</h2>
