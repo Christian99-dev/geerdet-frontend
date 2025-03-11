@@ -1,4 +1,4 @@
-import { Color } from "@/types/theme";
+import { Color } from "@/types/theme/theme";
 import Image from "next/image";
 import { ReactNode } from "react";
 
