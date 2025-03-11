@@ -8,11 +8,9 @@ export default async function HeroSlideshow() {
     <FixedBackgroundSectionSlideshow
       className="h-[500px] md:h-screen bg-gray-25"
       images={[
-        { src: "/images/amisch.jpeg", alt: "Amisch" },
-        { src: "/images/blume.jpeg", alt: "Blume" },
-        { src: "/images/kartoffel.jpeg", alt: "Kartoffel" },
         { src: "/images/pock.jpg", alt: "Pock" },
-        { src: "/images/stroh.jpeg", alt: "Stroh" },
+        { src: "/images/pöck.png", alt: "Pock" },
+        { src: "/images/blume.jpeg", alt: "Blume" },
       ]}
       color="gray-500"
     >
