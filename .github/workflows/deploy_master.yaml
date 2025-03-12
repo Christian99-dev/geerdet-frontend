@@ -31,6 +31,6 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          protocol: ftps-legacy
+          protocol: ftps
           local-dir: "out/"
           server-dir: "geerdet_website/"
