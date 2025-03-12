@@ -8,13 +8,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-        GOOGLE_API_KEY: ${{ secrets.PORT }}
 
     steps:
       - name: Checkout code
-        run: |
-          echo "$GOOGLE_API_KEY" |  awk '$1=$1' FS= OFS=" "
-          touch .env
-          echo GOOGLE_API_KEY = $GOOGLE_API_KEY >> .env
-          cat .env | awk '$1=$1' FS= OFS=" "
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          protocol: sftp
+          local-dir: "out/"
+          server-dir: "geerdet_website/"
