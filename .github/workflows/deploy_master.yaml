@@ -31,5 +31,5 @@ jobs:
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          protocol: ftp
+          protocol: ${{ secrets.PROTOCOL }}
           local-dir: "out/"
