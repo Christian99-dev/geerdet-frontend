@@ -11,26 +11,29 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: echo {{ secrets.HOST }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 20
+      # - name: Checkout code
+      #   uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 20
 
-      - name: Build Next.js app
-        run: npm run build
+      # - name: Install dependencies
+      #   run: npm install
 
-      - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          protocol: ftps
-          local-dir: "out/"
-          server-dir: "geerdet_website/"
+      # - name: Build Next.js app
+      #   run: npm run build
+
+      # - name: 📂 Sync files
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      #   with:
+      #     server: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USER }}
+      #     password: ${{ secrets.PASSWORD }}
+      #     port: ${{ secrets.PORT }}
+      #     protocol: ftps
+      #     local-dir: "out/"
+      #     server-dir: "geerdet_website/"
