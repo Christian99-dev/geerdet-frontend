@@ -33,4 +33,3 @@ jobs:
           port: ${{ secrets.PORT }}
           protocol: ftps
           local-dir: "out/"
-          server-dir: "geerdet_website/"
