@@ -12,16 +12,9 @@ jobs:
         GOOGLE_API_KEY: ${{ secrets.PORT }}
 
     steps:
-      - name: display
+      - name: Checkout code
         run: |
           echo "$GOOGLE_API_KEY" |  awk '$1=$1' FS= OFS=" "
-
           touch .env
           echo GOOGLE_API_KEY = $GOOGLE_API_KEY >> .env
-
           cat .env | awk '$1=$1' FS= OFS=" "
-
-
-    steps:
-      - name: Checkout code
-        run: echo {{ secrets.HOST }}
