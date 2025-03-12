@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: echo {{ secrets.HOST }}
+        run: echo {{ secrets.HOST }}
