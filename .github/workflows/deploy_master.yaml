@@ -8,6 +8,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+        GOOGLE_API_KEY: ${{ secrets.PORT }}
+
+    steps:
+      - name: display
+        run: |
+          echo "$GOOGLE_API_KEY" |  awk '$1=$1' FS= OFS=" "
+
+          touch .env
+          echo GOOGLE_API_KEY = $GOOGLE_API_KEY >> .env
+
+          cat .env | awk '$1=$1' FS= OFS=" "
+
 
     steps:
       - name: Checkout code
