@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Gallery -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/gallery</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Wie wir anbauen -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/wiewiranbauen</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Sortiment -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/sortiment</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- SoLawi -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/solawi</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Gemüsekiste -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/gemuesekiste</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Dabeisein -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/dabeisein</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Impressum -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/impressum</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Datenschutz -->
+  <url>
+    <loc>https://geerdet-taunusstein.de/datenschutz</loc>
+    <lastmod>2023-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
