@@ -11,9 +11,9 @@ export default async function OfferBanner() {
       <h2 className="uppercase">ARTEMISIA, HONIG oder doch etwas anderes?</h2>
 
       <p>
-        Coming soon: Fresh, seasonal vegetable boxes straight from our field.
+        Schon bald: Frisch geerntete, saisonale Gemüsekisten aus unmittelbarer Feldnähe.
         <br />
-        Support sustainable farming and enjoy nature's best!
+        Erleben Sie Nachhaltigkeit und entdecken Sie den wahren Geschmack der Natur!
       </p>
 
       <Button href="/sortiment" text="Zu unseren Angeboten" variant="default" size="small" />

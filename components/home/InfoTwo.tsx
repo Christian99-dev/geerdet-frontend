@@ -14,14 +14,13 @@ export default async function InfoTwo() {
     >
       <div className="mx-auto">
         <header className="mb-4 lg:mb-8">
-          <h2 className="mb-8 uppercase text-white">
-            Sustainable Farming, Rooted in Community
-          </h2>
-          <p className="pb-8">
-            Embrace regenerative practices and ecological harmony.
-            <br /> Together, we cultivate a healthier planet for future
-            generations.
-          </p>
+            <h2 className="mb-8 uppercase text-white">
+            Nachhaltige Landwirtschaft, verwurzelt in Gemeinschaft
+            </h2>
+            <p className="pb-8">
+            Nutze regenerative Praktiken und fördere ökologische Harmonie.
+            <br /> Gemeinsam kultivieren wir einen gesünderen Planeten für zukünftige Generationen.
+            </p>
         </header>
 
         {/* Liste der Features */}

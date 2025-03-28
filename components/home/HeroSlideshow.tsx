@@ -46,7 +46,7 @@ export default async function HeroSlideshow() {
           href={"#first-section"}
           className="hidden opacity-0 md:flex absolute bottom-12 text-white z-30 flex-col items-center cursor-pointer animate-moreButtonIn [animation-delay:_2s]"
         >
-          <p className="uppercase text-8 tracking-wide mb-2">Continue Here</p>
+          <p className="uppercase text-8 tracking-wide mb-2">Weiter</p>
           <Icon name="south" color="white" size="small" />
         </Link>
       </div>

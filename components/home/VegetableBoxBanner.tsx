@@ -8,15 +8,15 @@ export default async function VegetableBoxBanner() {
       img="/images/kartoffel.jpeg"
       className="p-[6em_0_4em_0] text-center relative flex flex-col items-center gap-6"
     >
-      <h2 className="uppercase">Vegetable Box Subscription</h2>
+      <h2 className="uppercase">Gemüsekisten Abonnement</h2>
 
       <p>
-        Coming soon: Fresh, seasonal vegetable boxes straight from our field.
+        Demnächst: Frische, saisonale Gemüsekisten direkt von unserem Feld.
         <br />
-        Support sustainable farming and enjoy nature's best!
+        Unterstütze nachhaltige Landwirtschaft und genieße das Beste der Natur!
       </p>
 
-      <Button text="Gemüsekiste Sichern!" variant="default" size="small" />
+      <Button text="Gemüsekiste Sichern!" href="/gemuesekiste" variant="default" size="small" />
     </FixedBackgroundSection>
   );
 }

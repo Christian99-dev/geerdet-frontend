@@ -9,24 +9,24 @@ export default async function InfoOne() {
         imageSrc="/images/stroh.jpeg"
         heading={
           <>
-            Straight from the
+            Aus der Gemeinschaft:
             <br />
-            field to your box
+            Verbundenheit erleben
           </>
         }
-        paragraphText="Discover the freshest produce grown with care and love. Every item in your box supports sustainable farming and our shared vision for a greener future."
+        paragraphText="Direkt aus der Zusammenarbeit lokaler Erzeuger entsteht unser Angebot. Jeder Artikel steht für Nachhaltigkeit, Fairness und den Spirit einer starken Gemeinschaft."
         background="gray-075"
       />
       <ImageText
         imageSrc="/images/blume.jpeg"
         heading={
           <>
-            Permaculture:
+            Permakultur:
             <br />
-            Climate action in practice
+            Natürliche Kreisläufe entdecken
           </>
         }
-        paragraphText="Our commitment to permaculture restores ecosystems, enriches soil health, and actively combats climate change with every harvest."
+        paragraphText="Mit innovativen Permakultur-Methoden gestalten wir einen nachhaltigen Anbau. Unser Ansatz fördert den Boden, schützt die Umwelt und sichert die Zukunft für kommende Generationen."
         background="gray-15"
         reverse
       />
@@ -34,12 +34,12 @@ export default async function InfoOne() {
         imageSrc="/images/amisch.jpeg"
         heading={
           <>
-            Why do our
+            Natur in ihrer Vielfalt:
             <br />
-            cucumbers grow crooked?
+            Unikate aus echtem Anbau
           </>
         }
-        paragraphText="Because nature isn’t perfect, and neither are we. Our focus is on quality and taste, not uniform shapes, to bring you food as nature intended."
+        paragraphText="Die natürlichen Unregelmäßigkeiten unserer Produkte sind Ausdruck authentischer Handwerkskunst. Jede Ernte erzählt eine Geschichte von Natur, Freiheit und unverfälschter Frische."
         background="gray-224"
       />
     </section>
