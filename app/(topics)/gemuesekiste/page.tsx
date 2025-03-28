@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "@/components/shared/Layout";
 import { fetchTopic } from "@/services/cms/local";
+import { DownloadButton } from "@/components/shared/DownloadButton";
+import DownloadSection from "@/components/shared/DownloadSection";
 
 export default async function Datenschutz() {
   const Topic = await fetchTopic("gemuesekiste");
@@ -54,6 +56,22 @@ export default async function Datenschutz() {
           investierst Du in eine zukunftsfähige, enkeltaugliche Landwirtschaft.
         </li>
       </ol>
+      <DownloadSection
+        downloadLink="/pdf/Example.pdf"
+        buttonText="Vertrag herunterladen"
+      >
+        <span>
+          Du hast auch Interesse an der Gemüsekiste und möchtest ein Abo
+          abschließen?
+        </span>
+        <br /> Lade dir jetzt den Vertrag herunter, und/oder melde dich bei uns
+        unter{" "}
+        <span>
+          <a href="mailto:info@geerdet-taunusstein.de">
+            info@geerdet-taunusstein.de
+          </a>
+        </span>
+      </DownloadSection>
     </Layout>
   );
 }

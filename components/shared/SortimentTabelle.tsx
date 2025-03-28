@@ -1,6 +1,7 @@
 "use client"; // Falls du Next.js 13 mit dem app-Verzeichnis nutzt
 
 import React from "react";
+import DownloadSection from "./DownloadSection";
 
 interface Item {
   name: string;
@@ -222,6 +223,21 @@ export default function ErnteTable() {
           </tr>
         </tbody>
       </table>
+
+      <DownloadSection
+        downloadLink="/pdf/Example.pdf"
+        buttonText="Vertrag herunterladen"
+      >
+        <span>
+          Du hast Interesse an den vielfältigen Sortimentsoptionen, die du hier siehst?
+        </span>
+        <br /> Lade dir jetzt den Vertrag herunter, und/oder melde dich bei uns unter{" "}
+        <span>
+          <a href="mailto:info@geerdet-taunusstein.de">
+            info@geerdet-taunusstein.de
+          </a>
+        </span>
+      </DownloadSection>
     </div>
   );
 }

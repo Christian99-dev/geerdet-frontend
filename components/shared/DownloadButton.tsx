@@ -1,3 +1,4 @@
+"use client";
 import Button from "@/components/shared/Button";
 
 export function DownloadButton({
@@ -9,6 +10,7 @@ export function DownloadButton({
 }) {
   return (
     <Button
+      variant="primary"
       text={text}
       onClick={() => {
         const link = document.createElement("a");
