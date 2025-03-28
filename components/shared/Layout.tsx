@@ -24,7 +24,7 @@ export default function Layout({
         </h1>
       </FixedBackgroundSection>
       <div className="bg-orange/50">
-        <div className="flex flex-col gap-6 text-7 text-center md:text-left py-8 md:py-16 text-background container mx-auto">
+        <div className="flex flex-col gap-6 text-7 text-center md:text-left py-8 md:py-16 text-background container px-5 mx-auto">
           {children}
         </div>
       </div>
